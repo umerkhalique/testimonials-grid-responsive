@@ -29,6 +29,7 @@
     padding-top: 17px;
     padding-right: 23px;
     z-index: 1;
+    position: relative;
 }
 .test2{
     background-color: #49556b;
@@ -119,8 +120,8 @@
 }
 .img2{
     position: absolute;
-    top: 60px;
-    left: 470px;
+    top: 0px;
+    left: 260px;
     z-index: -1;
     width: 85px;
 }
@@ -219,9 +220,7 @@
         flex-direction: column;
         width: 300px;
      }
-.img2{
-    display: none;
-}
+
 .background{
     background-color: #fff;
 }
